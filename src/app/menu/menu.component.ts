@@ -19,7 +19,8 @@ selectedDish: Dish;
    }
 
   ngOnInit() {
-      this.dishes = this.dishService.getDishes();
+    this.dishService.getDishes()
+        .then(dishes => this.dishes = dishes);
   }
 
   onSelectedDish(dish : Dish){
