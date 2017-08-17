@@ -27,7 +27,10 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## Install json-server
+## Install json-server [Test REST server]
 npm install json-server -g
 json-server --watch db.json
 json-server --watch db.json -d 2000
+
+## Rest angular [Third part http alternative for REST]
+npm install --save ngx-restangular
